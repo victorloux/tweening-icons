@@ -1,6 +1,7 @@
 body {
   background-color: #000;
   color: #fff;
+  font-family: sans-serif;
 }
 
 .container {
@@ -23,4 +24,14 @@ body {
 /* Hack to have a clickable zone across the SVG as we can't surround it with an <a> */
 .hoverzone {
   fill: rgba(255, 255, 255, 0) !important;
+}
+
+.github-link {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.github-link a:link,
+.github-link a:visited  {
+    color: #777;
 }
