@@ -112,7 +112,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // if the Shift key is pressed then change the value of this flag variable
     // if it's true then we can slow down animations (useful for debug, and an easter egg)
     var keyPressCallback = function() {
-        console.log("yo");
         slowDownAnimation = !!d3.event.shiftKey;
     };
 
