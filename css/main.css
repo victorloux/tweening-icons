@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  padding: 4em 3em 0 5em;
+}
+
+.social svg {
+  margin-right: 1.8em;
+}
+
+.social path, .social polyline {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+}
+
+/* Hack to have a clickable zone across the SVG as we can't surround it with an <a> */
+.hoverzone {
+  fill: rgba(255, 255, 255, 0) !important;
+}
